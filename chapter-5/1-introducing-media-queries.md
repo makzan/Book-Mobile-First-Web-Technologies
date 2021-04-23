@@ -43,3 +43,32 @@ When we want to align the elements horizontally when the screen becomes wider, w
   }
 }
 ```
+
+## Responsive with Flexbox
+
+```css
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+
+  header {
+    flex: 0 1 200px;
+  }
+  main {
+    flex: 1;
+  }
+}
+```
+
+## Responsive with Grid
+
+```css
+@media screen and (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 200px auto;
+  }
+
+}
+```
