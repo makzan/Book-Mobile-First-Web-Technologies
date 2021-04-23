@@ -1,2 +1,0 @@
-# Introducing Media Queries
-
