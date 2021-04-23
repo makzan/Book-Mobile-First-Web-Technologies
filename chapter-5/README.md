@@ -6,6 +6,13 @@ In this chapter, we will learn to use media queries. We will also take a look at
 
 CSS Unit for responsive
 
+In CSS, there are fixed units and flexbile units.
+
+For example, `px` is fixed unit. And `%`, `em` are flexible units.
+
+
+
+
 Laying things horizontally.
 
 Box-sizing: Border-box vs content-box
